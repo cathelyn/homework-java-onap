@@ -17,7 +17,11 @@ public class DirReader {
 	 */
 	public List<String[]> searchPrefixes(String dirPath, String phone) throws IOException {
 
-		// put your implementation here, please>
+		// put your implementation here, please
+		//metoda na rekurzivne ziskanie vsetkych paths -> ziskam vsetky subory na porovnavanie
+		for
+		//kazdy subor zoradim od najdlhsieho po najkratsi
+		// v kazdom subore vratim prvy mozny vyskyt do totalMatches
 
 		return totalMatches;
     }
@@ -28,4 +32,5 @@ public class DirReader {
 	public void shutdown(){
         executor.shutdown();
     }
+
 }

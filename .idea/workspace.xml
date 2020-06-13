@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff42e9c9-52b7-4906-89ba-f9f36553b0c7" name="Default Changelist" comment="" />
+    <list default="true" id="ff42e9c9-52b7-4906-89ba-f9f36553b0c7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/src/main/java/com/test/xzha/reader/dir/DirReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/router/src/main/java/com/test/xzha/reader/dir/DirReader.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1d4pMCPr6CZUjiBZa0DzDSQCaUh" />
   <component name="ProjectViewState">
@@ -17,6 +23,61 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/router" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/router" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/router" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -29,10 +90,48 @@
       <option name="presentableId" value="Default" />
       <updated>1591694169938</updated>
       <workItem from="1591694173621" duration="797000" />
+      <workItem from="1591973559363" duration="49000" />
+      <workItem from="1591973629144" duration="7000" />
+      <workItem from="1591973656485" duration="30000" />
+      <workItem from="1591975875915" duration="2865000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="419" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591982779993">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="419" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1591982779993" />
+    <state x="744" y="213" width="432" height="487" key="FileChooserDialogImpl" timestamp="1591982823296">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="744" y="213" width="432" height="487" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1591982823296" />
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1591982881113">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1591982881113" />
+    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1591982881113">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1878" height="276" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1591982881113" />
+    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1591982881113">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1878" height="276" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1591982881113" />
+    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1591982881113">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1591982881113" />
+    <state x="558" y="268" key="NewModule_or_Project.wizard" timestamp="1591982828418">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="558" y="268" key="NewModule_or_Project.wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1591982828418" />
+    <state x="836" y="369" key="cloudConfig.SelfSettingsDialog" timestamp="1591973602876">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="836" y="369" key="cloudConfig.SelfSettingsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1591973602876" />
   </component>
 </project>
