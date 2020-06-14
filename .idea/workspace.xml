@@ -94,6 +94,7 @@
       <workItem from="1591973629144" duration="7000" />
       <workItem from="1591973656485" duration="30000" />
       <workItem from="1591975875915" duration="2865000" />
+      <workItem from="1592143741160" duration="822000" />
     </task>
     <servers />
   </component>
@@ -105,10 +106,11 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="419" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1591982779993" />
-    <state x="744" y="213" width="432" height="487" key="FileChooserDialogImpl" timestamp="1591982823296">
-      <screen x="0" y="0" width="1920" height="1044" />
+    <state x="778" y="242" width="432" height="487" key="FileChooserDialogImpl" timestamp="1592144565941">
+      <screen x="55" y="27" width="1865" height="1053" />
     </state>
     <state x="744" y="213" width="432" height="487" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1591982823296" />
+    <state x="778" y="242" key="FileChooserDialogImpl/55.27.1865.1053@55.27.1865.1053" timestamp="1592144565941" />
     <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1591982881113">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -125,13 +127,18 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1591982881113" />
-    <state x="558" y="268" key="NewModule_or_Project.wizard" timestamp="1591982828418">
-      <screen x="0" y="0" width="1920" height="1044" />
+    <state x="597" y="297" width="819" height="507" key="NewModule_or_Project.wizard" timestamp="1592144571164">
+      <screen x="55" y="27" width="1865" height="1053" />
     </state>
     <state x="558" y="268" key="NewModule_or_Project.wizard/0.0.1920.1044@0.0.1920.1044" timestamp="1591982828418" />
+    <state x="597" y="297" width="819" height="507" key="NewModule_or_Project.wizard/55.27.1865.1053@55.27.1865.1053" timestamp="1592144571164" />
     <state x="836" y="369" key="cloudConfig.SelfSettingsDialog" timestamp="1591973602876">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="836" y="369" key="cloudConfig.SelfSettingsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1591973602876" />
+    <state x="766" y="171" width="432" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592143884364">
+      <screen x="55" y="27" width="1865" height="1053" />
+    </state>
+    <state x="766" y="171" width="432" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/55.27.1865.1053@55.27.1865.1053" timestamp="1592143884364" />
   </component>
 </project>
