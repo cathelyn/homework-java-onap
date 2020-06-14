@@ -14,7 +14,11 @@ public class DirReader {
 	private static final Logger LOG = Logger.getLogger(DirReader.class);
 	private ExecutorService executor = Executors.newSingleThreadExecutor();
 
-
+	/**
+	 * Method for adding files and directories of given tree to given collection
+	 * @param file root directory
+	 * @param allFiles Collection<File> stores all files and directories of given root
+	 */
 	public void addTree(File file, Collection<File> allFiles) {
 
 		File[] children = file.listFiles();
@@ -26,23 +30,26 @@ public class DirReader {
 		}
 	}
 
+	/**
+	 * Recursive method for finding files and directories in tree of directories
+	 * @param dirPath root dir path
+	 * @return Collection<File> all files and directories in given tree of directories
+	 */
+	public Collection<File> searchFiles(String dirPath) {
 
-	public Collection<File> searchFiles(String dirPath) throws IOException {
-
-		Collection<File> allFiles = new ArrayList<File>();
+		Collection<File> allFiles = new ArrayList<>();
 		addTree(new File(dirPath), allFiles);
 
 		return allFiles;
 
 	}
 
-
 	/**
 	 * Find all prefixes matched to phone
 	 * @param dirPath root dir path
 	 * @param phone String
 	 * @return List<String[]> all records matched to given phone
-	 * @throws IOException
+	 * @throws IOException is thrown if there is an error with accessing files
 	 */
 	public List<String[]> searchPrefixes(String dirPath, String phone) throws IOException {
 		List<String[]> totalMatches = new ArrayList<>();
@@ -64,12 +71,10 @@ public class DirReader {
 						totalMatches.add(entry);
 					}
 				}
-
 			} catch (IOError e) {
 				System.err.println("File reading error occurred.");
 			}
 		}
-
 		return totalMatches;
 	}
 
