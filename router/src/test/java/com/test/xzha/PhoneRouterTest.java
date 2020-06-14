@@ -51,5 +51,10 @@ public class PhoneRouterTest
         assertArrayEquals(expectedRoute5, route5);
         assertArrayEquals(expectedRoute6, route6);
 
+        // check if no exception is thrown
+        pr.route("exit");
+        pr.route("string");
+
     }
+
 }

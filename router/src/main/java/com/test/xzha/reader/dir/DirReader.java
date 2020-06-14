@@ -7,11 +7,12 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 
 public class DirReader {
 	private static final Logger LOG = Logger.getLogger(DirReader.class);
-	private ExecutorService executor;
+	private ExecutorService executor = Executors.newSingleThreadExecutor();
 
 
 	public void addTree(File file, Collection<File> allFiles) {
