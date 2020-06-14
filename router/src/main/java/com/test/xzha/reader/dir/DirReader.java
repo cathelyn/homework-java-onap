@@ -44,21 +44,22 @@ public class DirReader {
 	 * @throws IOException
 	 */
 	public List<String[]> searchPrefixes(String dirPath, String phone) throws IOException {
-
-		// put your implementation here, please
-		String[] entry = new String[3];
 		List<String[]> totalMatches = new ArrayList<>();
 		Collection<File> files = searchFiles(dirPath);
 		files = files.stream().filter(File::isFile).collect(Collectors.toList());
-
 		for (File file : files) {
+			String[] entry = new String[3];
 			try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 				String line;
 				while ((line = br.readLine()) != null) {
 					if (line.length() > 0 && phone.startsWith(line.split("\\s+")[0])) {
 						entry[0] = line.split("\\s+")[0];
 						entry[1] = line.split("\\s+")[1];
-						entry[2] = file.getName();
+						if (file.getName().contains(".")) {
+							entry[2] = file.getName().split("\\.")[0];
+						} else {
+							entry[2] = file.getName();
+						}
 						totalMatches.add(entry);
 					}
 				}
